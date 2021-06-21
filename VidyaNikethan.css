@@ -1,0 +1,39 @@
+.text-container{
+    position: relative;
+}
+.heading-text{
+    position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    
+}
+.call-for-papers{
+    overflow-x: auto;
+}
+.hover-item:hover a{
+
+    color: #0dcaf0 !important;
+
+}
+
+.custom-list li::before{
+    content:'o';
+    margin-right: 10px;
+    font-weight: bold;
+    color:#0dcaf0;
+    width: 12px;
+    height: 12px;
+}
+section {
+    min-height: 100vh;
+    padding-top:150px;
+}
+#imp-dates{
+    background-color: #27c0b1;
+}
+
+.table-grey{
+    background-color: burlywood;
+}
+
