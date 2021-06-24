@@ -17,6 +17,11 @@ body{
 @media screen and (max-width:500px) {
     .heading-text{
         top: 30%;
+       
+    }
+    .heading-text .title2{
+        
+       font-size: 20px !important;
     }
 }
 .call-for-papers{
