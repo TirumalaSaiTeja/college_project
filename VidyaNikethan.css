@@ -14,7 +14,11 @@ body{
    padding: 0px 10px 0px 10px;
     
 }
-
+@media screen and (max-width:500px) {
+    .heading-text{
+        top: 30%;
+    }
+}
 .call-for-papers{
     overflow-x: auto;
 }
