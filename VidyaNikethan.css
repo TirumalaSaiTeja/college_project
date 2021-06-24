@@ -51,9 +51,7 @@ section {
    
   
 }
-section p{
-    text-align: justify !important;
-}
+
 #call-for-papers ul{
 line-height:40px;
 }
@@ -86,7 +84,7 @@ height: auto;
 }
 .heading-center{
      position: absolute;
-   top:50%;
+   top:60%;
    left: 50%;
    transform: translate(-50%,-50%);
    width: 100% !important;
