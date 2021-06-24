@@ -50,7 +50,10 @@ line-height:40px;
 #imp-dates{
     background-color: #27c0b1;
 }
-
+#img1{
+    max-height: 500px;
+height: auto;
+}
 .table-grey{
     background-color: burlywood;
 }
