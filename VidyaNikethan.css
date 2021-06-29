@@ -35,9 +35,20 @@ body{
 .custom-list{
     list-style: none;
 }
+.custom-list2{
+    list-style: none;
+}
 
 .custom-list li::before{
     content:'\2021';
+    margin-right: 10px;
+    font-weight: bold;
+    color:#CD1848;
+    width: 12px;
+    height: 12px;
+}
+.custom-list2 li::before{
+    content:'\2023';
     margin-right: 10px;
     font-weight: bold;
     color:#CD1848;
@@ -134,4 +145,9 @@ height: auto;
 *::selection{
     background-color: #0a2c1c;
     color:white;
+}
+.dropdown-menu-light{
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur( 4px ) !important;
+     background-color: rgba(55, 121, 89, 0.658) !important; 
 }
