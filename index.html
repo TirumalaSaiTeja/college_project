@@ -9,24 +9,43 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/logo.jpeg" type="image/x-icon">
   <title>Vidyanikethan 2021</title>
   <link rel="stylesheet" href="./VidyaNikethan.css">
 </head>
 
-<body class="bg-light">
+<body class="bg-color1">
 
   <div class="sticky-top">
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-head ">
       <div class="container-fluid ">
         <div class="row ">
-          <div class="container d-flex align-items-center">
+          <!-- <div class="container d-flex align-items-center">
 
             <a href="#" class="navbar-brand"> <img src="./images/logo.jpeg" width="60" height="60" alt="home"
                 class="rounded"></a>
-            <h1 class=" text-white " href="#">ICISG <strong class="text-info">2022</strong></h1>
+            <h1 class=" text-white " href="#">ICISG <strong class="" style="color:#F0C38E">2022</strong>
+            </h1>
 
+          </div>
+
+
+        </div>
+        <button class="d-block d-md-none btn btn-outline-dark ms-auto " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+          <div class="container ">
+
+            <a href="#" class="navbar-brand d-flex align-items-center"> <img src="./images/logo.jpeg" width="60"
+                height="60" alt="home" class="rounded">
+
+              <h1 class=" text-white mx-3 " href="#">ICISG <strong class="" style="color:#F0C38E">2022</strong>
+              </h1>
+
+            </a>
           </div>
 
 
@@ -177,21 +196,21 @@
   <!-- corousel -end -->
 
   <!-- marquee -->
-  <div class="container mt-4 ">
+  <div class="container mt-4 bg-color4 rounded">
     <marquee behavior=" " direction="left" class="text-dark">
       <strong>1st International Conference on Innovations and Technologies for Sustainable Development and Green
         Environment(ICISG)-2022 </strong>
     </marquee>
   </div>
   <!-- about conf -->
-  <section class="about-conf container-fluid container-lg my-3  bg-white" id='about-conf'>
-    <div class="text-center border-bottom border-info border-3">
-      <h2>About <span class="text-info">Conference</span></h2>
+  <section class="about-conf container-fluid container-lg my-3  bg-white shadow" id='about-conf'>
+    <div class="text-center border-bottom border-info border-3 ">
+      <h2 class="text-pink">About <span class="text-info">Conference</span></h2>
 
     </div>
     <br>
     <div class="row">
-      <div class="col-md text-center img-container" data-aos="fade-up" data-aos-delay='200'>
+      <div class="col-md text-center img-container " data-aos="fade-up" data-aos-delay='200'>
         <img #img1 src="./images/coonference.jpg" width="500" alt="">
       </div>
       <div class="col-md" data-aos="fade-left">
@@ -223,7 +242,7 @@
   <section class="container-fluid container-lg  bg-light shadow rounded p-lg-3   " id="call-for-papers"
     data-aos="fade-up">
     <div class="text-center border-bottom border-info border-3">
-      <h3>Call for <span class="text-info">
+      <h3 class="text-pink">Call for <span class="text-info">
           Papers
         </span>
       </h3>
@@ -240,162 +259,253 @@
     </p>
 
     <p class="h5">
-      <strong>Innovations and <span class="text-info">Technologies</span> in :</strong>
+      <strong class="text-pink">Innovations and <span class="text-info">Technologies</span> in :</strong>
     </p>
     <br>
-    <div class="row ">
-      <div class="col-md-4  p-3 rounded border-1 border  ">
-        <h5>
-          <span class="text-info">1.&nbsp;</span>
+    <div class="container ">
+      <div class="row m-4">
+        <div class="col-md">
+          <!-- left area -->
+          <div class="accordion accordion-flush" id="left-area">
+            <div class="accordion-item">
+              <span class="accordion-header" id="heading-1">
+                <button class="accordion-button shadow-none collapsed shadow-none" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#accordian-1" aria-expanded="false"
+                  aria-controls="accordian-1">
+                  <h6>
+                    <span class="text-info">1.&nbsp;</span>
 
-          Sustainable Development and Green Environment Sustainable Technology
-        </h5>
-        <ul class="custom-list  my-3">
-          <li>Use of Artificial Intelligence, Machine Learning, IoT, Big Data and Block Chain technologies in all fields
-            of Engineering for sustainable development.</li>
-          <li>Smart manufacturing and Industrial IoT.</li>
-          <li>Network design optimization.</li>
-          <li>Smart cloud computing.</li>
-          <li>Intelligent Systems.</li>
-          <li>Data Science and Optimization techniques.</li>
-          <li>Robotics and Autonomous Systems.</li>
-          <li>Data Analytics.</li>
-          <li>Cognitive Radio and Cognitive Networks.</li>
-          <li>Cryptography and Network security.</li>
-          <li>Smart Healthcare Analytics, Advances and Technologies.</li>
-          <li>Remote Sensing for Sustainability.</li>
-          <li>Smart cities and surveillance.</li>
-          <li>Image Processing, Computer Vision.</li>
-          <li>Augmented and Virtual Reality, Game Development.</li>
+                    Sustainable Development and Green Environment Sustainable Technology
+                  </h6>
+                </button>
+              </span>
+              <div id="accordian-1" class="accordion-collapse collapse" aria-labelledby="heading-1"
+                data-bs-parent="#left-area">
+                <div class="accordion-body">
+                  <ul class="custom-list  my-3">
+                    <li>Use of Artificial Intelligence, Machine Learning, IoT, Big Data and Block Chain technologies in
+                      all fields
+                      of Engineering for sustainable development.</li>
+                    <li>Smart manufacturing and Industrial IoT.</li>
+                    <li>Network design optimization.</li>
+                    <li>Smart cloud computing.</li>
+                    <li>Intelligent Systems.</li>
+                    <li>Data Science and Optimization techniques.</li>
+                    <li>Robotics and Autonomous Systems.</li>
+                    <li>Data Analytics.</li>
+                    <li>Cognitive Radio and Cognitive Networks.</li>
+                    <li>Cryptography and Network security.</li>
+                    <li>Smart Healthcare Analytics, Advances and Technologies.</li>
+                    <li>Remote Sensing for Sustainability.</li>
+                    <li>Smart cities and surveillance.</li>
+                    <li>Image Processing, Computer Vision.</li>
+                    <li>Augmented and Virtual Reality, Game Development.</li>
 
-        </ul>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#accordian-2" aria-expanded="false" aria-controls="accordian-2">
+                  <h6>
+                    <span class="text-info">2.&nbsp;</span>
+
+                    Electronics and Communication Engineering
+                  </h6>
+                </button>
+              </h2>
+              <div id="accordian-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                data-bs-parent="#left-area">
+                <div class="accordion-body">
+                  <ul class="custom-list my-3">
+                    <li>Advanced Analog and Digital Circuit Design.</li>
+                    <li>Microelectronics & Micro Processor.</li>
+                    <li>Electronic System Level Design and Microwaves Circuit Design.</li>
+                    <li>Semiconductor Technology and Materials for Electronics.</li>
+                    <li>MEMS, On-Chip Design Technology, Nano-Fabrication & Computing.</li>
+                    <li>VLSI for electronic system design and manufacturing.</li>
+                    <li>VLSI for wireless communication 5G and beyond.</li>
+                    <li>CMOS mixed signal and RF VLSI design.</li>
+                    <li>Embedded Machine Learning and Embedded Systems.</li>
+                    <li>Bioengineering Circuits and Systems.</li>
+                    <li>Antenna, Satellite and Mobile Cellular Communications.</li>
+                    <li>Vehicular Communication Networks.</li>
+                    <li>Wireless Sensor Networks and Optical Communication.</li>
+                    <li>Video/Audio/Speech Processing and Coding.</li>
+                    <li>Signal Processing for Communications.</li>
+                    <li>Biometrics, Cryptography/ Steganography/ Watermarking.</li>
+                  </ul>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#accordian-3" aria-expanded="false" aria-controls="accordian-3">
+                  <h6>
+                    <span class="text-info">3.&nbsp;</span>
+                    Electrical Engineering
+                  </h6>
+                </button>
+              </h2>
+              <div id="accordian-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                data-bs-parent="#left-area">
+                <div class="accordion-body">
+                  <ul class="custom-list my-3">
+                    <li>Renewable Energy and Systems, Sustainable Technologies for Energy Conversion.</li>
+                    <li>Power Electronics and Applications.</li>
+                    <li>Grid interactive systems used in hybrid renewable (green) energy systems .</li>
+                    <li>Smart Grid and Smart Technologies for Power Generation and Distribution Micro grids and HVDC
+                      Transmission.
+                    </li>
+                    <li>Photovoltaic Systems and Materials.</li>
+                    <li>Solar Energy, Solar Physics and Solar Thermal Assessment.</li>
+                    <li>Control techniques for renewable (Green) energy systems, Automation and Instrumentation.</li>
+                    <li>Energy Harvesting and Renewable energy systems in smart cities.</li>
+                    <li>Green energy generation, storage, management, control, transmission and distribution.</li>
+                    <li>Green buildings, information technology and communication.</li>
+                    <li>Decision support systems for renewable (green) energy systems and sources.</li>
+                    <li>Electric hybrid vehicles.</li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-4">
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#accordian-4" aria-expanded="false" aria-controls="accordian-4">
+                  <h6>
+                    <span class="text-info">4.&nbsp;</span>
+                    Mechanical engineering
+                  </h6>
+                </button>
+              </h2>
+              <div id="accordian-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
+                data-bs-parent="#left-area">
+                <div class="accordion-body">
+                  <ul class="custom-list my-3">
+                    <li>Design and manufacturing Engineering.</li>
+                    <li>Sustainable manufacturing, materials and raw material processing.</li>
+                    <li>Sustainable bio-materials and design technology.</li>
+                    <li>Functionally graded materials and sustainable composites.</li>
+                    <li>Nano-materials and their sustainable nano-fabrication.</li>
+                    <li>Smart Materials.</li>
+                    <li>Thermal Engineering.</li>
+                    <li>Micro/Nano Processing.</li>
+                    <li>Industrial Automation and Alternative Fuels.</li>
+                    <li>Greening the Industrial Sector’s Energy Use and Options.</li>
+                    <li>Greening Urbanization and Urban Settlements, Rural Development through Green Energy.</li>
+                    <li>Automobile Engineering: Autonomous vehicles.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md mt-1 mt-md-0">
+          <!-- right area -->
+          <div class="accordion accordion-flush" id="right-area">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-right-1">
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#accordian-right-1" aria-expanded="false" aria-controls="accordian-right-1">
+                  <h6>
+                    <span class="text-info">5.&nbsp;</span>
+
+                    Education and Equality, Gender Equality, Research Methodology, Entrepreneurship and Intellectual
+                    Property
+                    Rights.
+                  </h6>
+                </button>
+              </h2>
+              <div id="accordian-right-1" class="accordion-collapse collapse" aria-labelledby="heading-right-1"
+                data-bs-parent="#right-area">
+                <div class="accordion-body">
+                  <ul class="custom-list my-3">
+                    <li>Engineering Education, Technology, Entrepreneurship and Innovation.</li>
+                    <li>Design Thinking & Product Development.</li>
+                    <li>Sustainable Society: Better governance and equality, Gender Equality and Education, Governance
+                      Indicators.
+                    </li>
+                    <li>Sustainable Development Goals (SDGs) and Green Energy.</li>
+                    <li>Student-Centred Learning Environments.</li>
+                    <li>Equity, Culture and Ethics in Engineering Education.</li>
+                    <li>Transforming Engineering Pedagogy for Implementing NEP.</li>
+                    <li>Accreditation and Assessment.</li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-right-2">
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#accordian-right-2" aria-expanded="false" aria-controls="accordian-right-2">
+                  <h6>
+                    <span class="text-info">6.&nbsp;</span>
+                    Material sciences & engineering
+                  </h6>
+                </button>
+              </h2>
+              <div id="accordian-right-2" class="accordion-collapse collapse" aria-labelledby="heading-right-2"
+                data-bs-parent="#right-area">
+                <div class="accordion-body">
+                  <ul class=" custom-list my-3">
+                    <li>Computational materials science, Nano technology in material science.</li>
+                    <li>Smart biomaterials, Energy materials, Solar Physics, Nano Physics.</li>
+                    <li>Material physics and material chemistry.</li>
+                    <li>Applications in material science and engineering.</li>
+                    <li>Optoelectronics, Photonics and Magnetic materials.</li>
+                    <li>Green Chemistry, Metallurgy, Corrosion and Mining.</li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-right-3">
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#accordian-right-3" aria-expanded="false" aria-controls="accordian-right-3">
+                  <h6>
+                    <span class="text-info">7.&nbsp;</span>Civil engineering
+                  </h6>
+                </button>
+              </h2>
+              <div id="accordian-right-3" class="accordion-collapse collapse" aria-labelledby="heading-right-3"
+                data-bs-parent="#right-area">
+                <div class="accordion-body">
+                  <ul class="custom-list my-3">
+                    <li>Structural engineering.</li>
+                    <li>Environmental engineering.</li>
+                    <li>Geotechnical engineering.</li>
+                    <li>Transportation engineering.</li>
+                    <li>Construction engineering .</li>
+                    <li>Water resources engineering.</li>
+                    <li>Surveying.</li>
+                    <li>Disaster mitigation and management.</li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-
-      <div class="col-md-4  p-3 rounded border-1 border ">
-        <h5>
-          <span class="text-info">2.&nbsp;</span>
-
-          Electronics and Communication Engineering
-        </h5>
-        <ul class="custom-list my-3">
-          <li>Advanced Analog and Digital Circuit Design.</li>
-          <li>Microelectronics & Micro Processor.</li>
-          <li>Electronic System Level Design and Microwaves Circuit Design.</li>
-          <li>Semiconductor Technology and Materials for Electronics.</li>
-          <li>MEMS, On-Chip Design Technology, Nano-Fabrication & Computing.</li>
-          <li>VLSI for electronic system design and manufacturing.</li>
-          <li>VLSI for wireless communication 5G and beyond.</li>
-          <li>CMOS mixed signal and RF VLSI design.</li>
-          <li>Embedded Machine Learning and Embedded Systems.</li>
-          <li>Bioengineering Circuits and Systems.</li>
-          <li>Antenna, Satellite and Mobile Cellular Communications.</li>
-          <li>Vehicular Communication Networks.</li>
-          <li>Wireless Sensor Networks and Optical Communication.</li>
-          <li>Video/Audio/Speech Processing and Coding.</li>
-          <li>Signal Processing for Communications.</li>
-          <li>Biometrics, Cryptography/ Steganography/ Watermarking.</li>
-        </ul>
-      </div>
-
-      <div class="col-md-4  p-3 rounded border-1 border ">
-        <h5>
-          <span class="text-info">3.&nbsp;</span>
-          Electrical Engineering
-        </h5>
-        <ul class="custom-list my-3">
-          <li>Renewable Energy and Systems, Sustainable Technologies for Energy Conversion.</li>
-          <li>Power Electronics and Applications.</li>
-          <li>Grid interactive systems used in hybrid renewable (green) energy systems .</li>
-          <li>Smart Grid and Smart Technologies for Power Generation and Distribution Micro grids and HVDC Transmission.
-          </li>
-          <li>Photovoltaic Systems and Materials.</li>
-          <li>Solar Energy, Solar Physics and Solar Thermal Assessment.</li>
-          <li>Control techniques for renewable (Green) energy systems, Automation and Instrumentation.</li>
-          <li>Energy Harvesting and Renewable energy systems in smart cities.</li>
-          <li>Green energy generation, storage, management, control, transmission and distribution.</li>
-          <li>Green buildings, information technology and communication.</li>
-          <li>Decision support systems for renewable (green) energy systems and sources.</li>
-          <li>Electric hybrid vehicles.</li>
-        </ul>
-      </div>
-
-      <div class="col-md-4  p-3 rounded border-1 border ">
-        <h5>
-          <span class="text-info">4.&nbsp;</span>
-          Mechanical engineering
-        </h5>
-        <ul class="custom-list my-3">
-          <li>Design and manufacturing Engineering.</li>
-          <li>Sustainable manufacturing, materials and raw material processing.</li>
-          <li>Sustainable bio-materials and design technology.</li>
-          <li>Functionally graded materials and sustainable composites.</li>
-          <li>Nano-materials and their sustainable nano-fabrication.</li>
-          <li>Smart Materials.</li>
-          <li>Thermal Engineering.</li>
-          <li>Micro/Nano Processing.</li>
-          <li>Industrial Automation and Alternative Fuels.</li>
-          <li>Greening the Industrial Sector’s Energy Use and Options.</li>
-          <li>Greening Urbanization and Urban Settlements, Rural Development through Green Energy.</li>
-          <li>Automobile Engineering: Autonomous vehicles.</li>
-        </ul>
-      </div>
-
-      <div class="col-md-4  p-3 rounded border-1 border ">
-        <h5>
-          <span class="text-info">5.&nbsp;</span>
-
-          Education and Equality, Gender Equality, Research Methodology, Entrepreneurship and Intellectual Property
-          Rights.
-        </h5>
-        <ul class="custom-list my-3">
-          <li>Engineering Education, Technology, Entrepreneurship and Innovation.</li>
-          <li>Design Thinking & Product Development.</li>
-          <li>Sustainable Society: Better governance and equality, Gender Equality and Education, Governance Indicators.
-          </li>
-          <li>Sustainable Development Goals (SDGs) and Green Energy.</li>
-          <li>Student-Centred Learning Environments.</li>
-          <li>Equity, Culture and Ethics in Engineering Education.</li>
-          <li>Transforming Engineering Pedagogy for Implementing NEP.</li>
-          <li>Accreditation and Assessment.</li>
-        </ul>
-      </div>
-      <div class="col-md-4  p-3 rounded border-1 border ">
-        <h5>
-          <span class="text-info">6.&nbsp;</span>
-          Material sciences & engineering
-        </h5>
-        <ul class=" custom-list my-3">
-          <li>Computational materials science, Nano technology in material science.</li>
-          <li>Smart biomaterials, Energy materials, Solar Physics, Nano Physics.</li>
-          <li>Material physics and material chemistry.</li>
-          <li>Applications in material science and engineering.</li>
-          <li>Optoelectronics, Photonics and Magnetic materials.</li>
-          <li>Green Chemistry, Metallurgy, Corrosion and Mining.</li>
-        </ul>
-      </div>
-      <div class="col-md-4   p-3 rounded border-1 border w">
-        <h5>
-          <span class="text-info">7.&nbsp;</span>Civil engineering
-        </h5>
-        <ul class="custom-list my-3">
-          <li>Structural engineering.</li>
-          <li>Environmental engineering.</li>
-          <li>Geotechnical engineering.</li>
-          <li>Transportation engineering.</li>
-          <li>Construction engineering .</li>
-          <li>Water resources engineering.</li>
-          <li>Surveying.</li>
-          <li>Disaster mitigation and management.</li>
-        </ul>
-      </div>
-
     </div>
-
   </section>
   <!-- Important dates -->
-  <section id="imp-dates" class="container-fluid  rounded text-white">
-    <div class=" text-center border-bottom border-light border-2">
-      <h2>Important Dates</h2>
+  <section id="imp-dates" class="container-fluid  rounded text-dark   bg-color2">
+    <div class=" text-center border-bottom border-info border-2">
+      <h2 class="text-pink">Important <span class="text-info">Dates</span></h2>
     </div>
     <div class="container">
       <div class="row">
@@ -403,9 +513,9 @@
 
           <img src="./images/imp-dates.png" alt="imp-dates">
         </div>
-        <div class="col" data-aos="fade-right">
-          <table class="table-grey mt-5  table table-striped ">
-            <thead class="table-head ">
+        <div class="col " data-aos="fade-right">
+          <table class="table-grey mt-5  table  bg-head  text-light rounded-3">
+            <thead class="table-head bg-foot  ">
               <tr>
                 <th>
                   <span class="h4">
@@ -425,7 +535,7 @@
 
               </tr>
             </thead>
-            <tbody>
+            <tbody class="text-light">
               <tr>
                 <td>1</td>
                 <td>Submission of Manuscripts</td>
@@ -459,20 +569,24 @@
   </section>
   <!-- conf-team -->
 
-  <section id="conf-team" class="container">
+  <section id="conf-team" class="container shadow bg-light">
     <div class="text-center border-bottom border-info border-3">
-      <h2>Conference <span class="text-info">Team</span></h2>
+      <h2 class="text-pink">Conference <span class="text-info">Team</span></h2>
     </div>
     <div class="container ">
       <div class="row m-4">
         <div class="col-md">
           <!-- left area -->
-          <div class="accordion accordion-flush" id="left-area">
+          <div class="accordion accordion-flush" id="left-area" data-aos="flip-right">
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-1">
-                <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#accordian-1" aria-expanded="false" aria-controls="accordian-1">
-                  Chief Patrons
+                <button class="accordion-button shadow-none collapsed shadow-none" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#accordian-1" aria-expanded="false"
+                  aria-controls="accordian-1">
+                  <h6>
+
+                    Chief Patrons
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-1" class="accordion-collapse collapse" aria-labelledby="heading-1"
@@ -486,9 +600,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#accordian-2" aria-expanded="false" aria-controls="accordian-2">
-                  Patrons
+                  <h6>
+
+                    Patrons
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
@@ -504,9 +621,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#accordian-3" aria-expanded="false" aria-controls="accordian-3">
-                  Advisors
+                  <h6>
+
+                    Advisors
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
@@ -532,9 +652,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#accordian-4" aria-expanded="false" aria-controls="accordian-4">
-                  Conference Chair
+                  <h6>
+
+                    Conference Chair
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
@@ -546,9 +669,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#accordian-5" aria-expanded="false" aria-controls="accordian-5">
-                  Conference Co-Chairs
+                  <h6>
+
+                    Conference Vice-Chairs
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-5" class="accordion-collapse collapse" aria-labelledby="heading-5"
@@ -562,9 +688,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-6">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#accordian-6" aria-expanded="false" aria-controls="accordian-6">
-                  Honarory Chair
+                  <h6>
+
+                    Honarory Chair
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-6" class="accordion-collapse collapse" aria-labelledby="heading-6"
@@ -580,12 +709,15 @@
 
         <div class="col-md">
           <!-- right area -->
-          <div class="accordion accordion-flush" id="right-area">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="heading-right-1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          <div class="accordion accordion-flush " id="right-area" data-aos="flip-left">
+            <div class="accordion-item ">
+              <h2 class="accordion-header " id="heading-right-1">
+                <button class="accordion-button shadow-none collapsed " type="button" data-bs-toggle="collapse"
                   data-bs-target="#accordian-right-1" aria-expanded="false" aria-controls="accordian-right-1">
-                  Organizing Chairs
+                  <h6>
+
+                    Organizing Chairs
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-right-1" class="accordion-collapse collapse" aria-labelledby="heading-right-1"
@@ -599,9 +731,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-right-2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#accordian-right-2" aria-expanded="false" aria-controls="accordian-right-2">
-                  Technical Chairs
+                  <h6>
+
+                    Technical Chairs
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-right-2" class="accordion-collapse collapse" aria-labelledby="heading-right-2"
@@ -616,9 +751,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-right-3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#accordian-right-3" aria-expanded="false" aria-controls="accordian-right-3">
-                  Technical Program Chairs
+                  <h6>
+
+                    Technical Program Chairs
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-right-3" class="accordion-collapse collapse" aria-labelledby="heading-right-3"
@@ -648,9 +786,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-right-4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#accordian-right-4" aria-expanded="false" aria-controls="accordian-right-4">
-                  International Technical Committee
+                  <h6>
+
+                    International Technical Committee
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-right-4" class="accordion-collapse collapse" aria-labelledby="heading-right-4"
@@ -678,9 +819,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-right-5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#accordian-right-5" aria-expanded="false" aria-controls="accordian-right-5">
-                  National Technical Committee
+                  <h6>
+
+                    National Technical Committee
+                  </h6>
                 </button>
               </h2>
               <div id="accordian-right-5" class="accordion-collapse collapse" aria-labelledby="heading-right-5"
@@ -733,6 +877,26 @@
                 </div>
               </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-right-6">
+                <button class="accordion-button shadow-none collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#accordian-right-6" aria-expanded="false" aria-controls="accordian-right-6">
+                  <h6>
+
+                    Website Committee
+                  </h6>
+                </button>
+              </h2>
+              <div id="accordian-right-6" class="accordion-collapse collapse" aria-labelledby="heading-right-6"
+                data-bs-parent="#right-area">
+                <div class="accordion-body">
+                  <li>Chaitanya</li>
+                  <li>Tirumala Sai Teja</li>
+                  <li>Kale Maithri</li>
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -740,19 +904,20 @@
     </div>
   </section>
   <!-- welcome -->
-  <div class="container-fluid text-center bg-dark text-white p-5">
-    <h4>Welcome to ICISG 2022</h4>
+  <div class="container-fluid text-center p-5 bg-color2">
+    <h2 id='welcome' class="text-white">Welcome to ICISG 2022</h2>
+
   </div>
   <!-- contact us -->
   <section id="contact-us" class="container text-center bg-white">
     <div class="text-center border-bottom border-3 border-info">
-      <h2>Contact <span class="text-info">Us</span></h2>
+      <h2 class="text-pink">Contact <span class="text-info">Us</span></h2>
     </div>
     <div class="row mb-5">
       <div class="col" data-aos="fade-up">
 
         <div class="icon-container mt-5 mb-3 ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="burlywood" class="bi bi-telephone-fill"
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#377959" class="bi bi-telephone-fill"
             viewBox="0 0 16 16">
             <path fill-rule="evenodd"
               d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
@@ -760,25 +925,21 @@
         </div>
         <div class="container">
           <h4>
-            Conveners
+            Conference Chair
           </h4>
           <div>
 
             <span class="lead">
               <strong>Dr. K. Reddy Madhavi</strong> </span>
           </div>
-          <div>
-            <span> Mobile NO.:
-              <strong>9885798626</strong>
-            </span>
-          </div>
+
         </div>
 
       </div>
       <div class="col" data-aos="fade-up">
 
         <div class="icon-container mt-5 mb-3 ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="burlywood" class="bi bi-chat-text-fill"
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#377959" class="bi bi-chat-text-fill"
             viewBox="0 0 16 16">
             <path
               d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z" />
@@ -803,7 +964,7 @@
       </div>
       <div class="col " data-aos="fade-up">
         <div class="icon-container mt-5 mb-3 ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="burlywood" class="bi bi-geo-alt-fill"
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#377959" class="bi bi-geo-alt-fill"
             viewBox="0 0 16 16">
             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
           </svg>
@@ -829,7 +990,7 @@
     <br>
     <br>
     <!-- map row -->
-    <div id="venue" class="container text-center bg-white">
+    <div id="venue" class="container text-center bg-light ">
       <div class="row mt-5">
         <div class="col-md bg-light">
           <div class="mapouter ">
@@ -864,7 +1025,7 @@
         <div class="col-md d-flex flex-column justify-content-center">
           <h2 class="text-info ">Venue</h2>
           <div>
-            <h4>Sree Vidyanikethan Engineering College,Tirupati</h4>
+            <h4 class="text-pink">Sree Vidyanikethan Engineering College </h4>
             <h5>(Autonomous) </h5>
             <p>(Affliated to JNTUA, Ananthapuramu and Approved by AICTE, Accredited by
               NBA & NAAC)</p>
@@ -878,31 +1039,28 @@
 
   <!-- info -->
 
-  <div class="container-fluid bg-dark text-white text-center p-5" id='info'>
+  <div class="container-fluid  text-white text-center p-5 bg-foot" id='info'>
     <div class="row">
       <div class="col">
-        <h2><span class="text-info">ICISG</span>
-          2022
+        <h2><span class="text-white">ICISG</span>
+          <strong style="color:#F0C38E">2022</strong>
         </h2>
         <p class="lead">Papers can be uploaded through this website.</p>
       </div>
 
       <div class="col">
         <h4>INFORMATION</h4>
-        <p class="lead">Feel free to Call us for any Conference related Queries?</p>
+        <p class="lead">Feel free to Mail us for any Conference related Queries?</p>
+
         <div>
-          <span class="text-info">Call :</span>
-          <span class="lead">9885798626</span>
-        </div>
-        <div>
-          <span class="text-info">Mail to :</span>
+          <span style="color:#F0C38E">Mail to :</span>
           <span class="lead">reddymadhavi.k@Vidyanikethan.edu</span>
         </div>
       </div>
     </div>
   </div>
   <!-- footer -->
-  <div class="container-fluid bg-light p-4 text-center">
+  <div class="container-fluid  p-4 text-center bg-foot text-light">
     <span> &copy; copyright <strong>ICISG 2022</strong>, All Rights Reserved</span>
 
   </div>
