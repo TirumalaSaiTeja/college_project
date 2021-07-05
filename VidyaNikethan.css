@@ -1,5 +1,5 @@
 body{
-    scroll-padding-top: 400px;
+    
 }
 .text-container{
     position: relative;
@@ -57,11 +57,11 @@ body{
 }
 section {
     /* min-height: 100vh; */
-    padding-top:40px;
+    padding-top:80px !important;
     padding-bottom: 40px;
    
-  
 }
+
 
 #call-for-papers ul{
 line-height:40px;
