@@ -151,3 +151,6 @@ height: auto;
     -webkit-backdrop-filter: blur( 4px ) !important;
      background-color: rgba(55, 121, 89, 0.658) !important; 
 }
+.email:hover{
+color: #CD1848 !important;
+}
