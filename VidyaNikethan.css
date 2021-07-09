@@ -133,6 +133,9 @@ height: auto;
 .text-pink{
     color: #CD1848;
 }
+.text-just{
+    text-align: justify;
+}
 .accordion-button:not(.collapsed){
     color:#377959 !important;
     background-color:rgba(55, 121, 89, 0.226);
